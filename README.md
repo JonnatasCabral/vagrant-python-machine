@@ -42,6 +42,10 @@ vagrant plugin install vagrant-bindfs
 ```
 
 ```
+sudo apt-get install nfs-common nfs-kernel-server
+```
+
+```
 git clone https://github.com/allisson/vagrant-python-machine.git
 cd vagrant-python-machine
 vagrant up
