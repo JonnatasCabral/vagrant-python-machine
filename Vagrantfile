@@ -29,7 +29,7 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 1080, host: 1080 # mailcatcher
   config.vm.network "forwarded_port", guest: 9200, host: 9200 # elasticsearch
   config.vm.network "forwarded_port", guest: 3306, host: 3306 # mysql
-  config.vm.network "forwarded_port", guest: 5432, host: 5432 # postgresql
+  config.vm.network "forwarded_port", guest: 5432, host: 1234 # postgresql
   config.vm.network "forwarded_port", guest: 27017, host: 27017 # mongodb
 
   # Create a private network, which allows host-only access to the machine
